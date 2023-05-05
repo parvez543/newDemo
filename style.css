@@ -185,10 +185,10 @@ flex-grow: 0;
         gap: 30px
     }
     .logoItem{
-       margin-right: 373px;
+       /* margin-right: 373px; */
     }
     .navBtn{
-        margin-left: 389px
+        /* margin-left: 389px */
     }
   }
   @media screen and (min-width: 2560px) {
@@ -200,7 +200,7 @@ flex-grow: 0;
        /* margin-right: 496px; */
     }
     .navBtn{
-        margin-left: 519px
+        /* margin-left: 519px */
     }
     
   }
@@ -213,7 +213,7 @@ flex-grow: 0;
        /* margin-right: 748px; */
     }
     .navBtn{
-        margin-left: 780px
+        /* margin-left: 780px */
     }
   }
 
