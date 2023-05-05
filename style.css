@@ -197,7 +197,7 @@ flex-grow: 0;
         gap: 40px
     }
     .logoItem{
-       margin-right: 373px;
+       margin-right: 496px;
     }
     .navBtn{
         margin-left: 517px
@@ -242,13 +242,13 @@ flex-grow: 0;
         height: 60px;
     }
   }
-  @media screen and (min-width: 2560px) {
+  @media screen and (max-width: 2560px) {
     .metroLogo{
         width: 258.24px;
         height: 79.8px;
     }
   }
-  @media screen and (min-width: 3840px) {
+  @media screen and (max-width: 3840px) {
     .metroLogo{
         width: 388.34px;
         height: 120px;
