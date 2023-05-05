@@ -197,10 +197,10 @@ flex-grow: 0;
         gap: 40px
     }
     .logoItem{
-       margin-right: 496px;
+       /* margin-right: 496px; */
     }
     .navBtn{
-        margin-left: 517px
+        margin-left: 519px
     }
     
   }
@@ -210,7 +210,7 @@ flex-grow: 0;
         gap: 60px
     }
     .logoItem{
-       margin-right: 748px;
+       /* margin-right: 748px; */
     }
     .navBtn{
         margin-left: 780px
