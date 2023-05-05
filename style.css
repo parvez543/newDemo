@@ -210,10 +210,10 @@ flex-grow: 0;
         gap: 60px
     }
     .logoItem{
-       /* margin-right: 748px; */
+       margin-right: 748px;
     }
     .navBtn{
-        /* margin-left: 780px */
+        margin-left: 780px
     }
   }
 
