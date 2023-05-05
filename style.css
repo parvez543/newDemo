@@ -218,37 +218,37 @@ flex-grow: 0;
   }
 
   /* Logo Svg */
-  @media screen and (max-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .metroLogo{
         width: 194.17px;
         height: 60px;
     }
   }
-  @media screen and (max-width: 1512px) {
+  @media screen and (min-width: 1512px) {
     .metroLogo{
         width: 194.17px;
         height: 60px;
     }
   }
-  @media screen and (max-width: 1728px) {
+  @media screen and (min-width: 1728px) {
     .metroLogo{
         width: 194.17px;
         height: 60px;
     }
   }
-  @media screen and (max-width: 1920px) {
+  @media screen and (min-width: 1920px) {
     .metroLogo{
-        width: 194.17px !important;
-        height: 60px !important;
+        width: 194.17px ;
+        height: 60px;
     }
   }
-  @media screen and (max-width: 2560px) {
+  @media screen and (min-width: 2560px) {
     .metroLogo{
         width: 258.24px;
         height: 79.8px;
     }
   }
-  @media screen and (max-width: 3840px) {
+  @media screen and (min-width: 3840px) {
     .metroLogo{
         width: 388.34px;
         height: 120px;
