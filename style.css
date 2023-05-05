@@ -1,122 +1,211 @@
-/* Grid Container */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navContent {
+    display: flex;
+    align-items: center;
+}
+.navListContent{
+    display: flex;
+    align-items: center;
+}
+.navBtnContent{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px
+}
+.btnContainer{
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+
+.navContent ul li {
+  list-style: none;
+  color: #475467;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.listIcon {
+  /* position: absolute; */
+  width: 10px;
+  stroke-width: 1.67px;
+  stroke: #475467;
+
+  /* Gray/600 */
+
+  /* border: 1.66667px solid #475467; */
+}
+.dropDownIcon {
+  margin-top: -3px;
+}
+.loginBtn {
+  color: #344054;
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 8px;
+
+  width: 70px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+
+  /* Base/White */
+
+  background: #ffffff;
+  /* Gray/300 */
+
+  border: 1px solid #d0d5dd;
+  /* Shadow/xs */
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.getStartedBtn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 8px;
+
+width: 113px;
+height: 40px;
+
+/* Primary/600 */
+
+background: #155EEF;
+/* Primary/600 */
+
+border: 1px solid #155EEF;
+/* Shadow/xs */
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* Media Query */
 @media only screen and (min-width: 1280px) {
-    .gridContainer {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      column-gap: 16px;
+    .navContainer{
+        padding: 16px 112px;
     }
-    .imagContentContainer{
-      margin-bottom: 16px;
+
+    .navListContent{
+        gap: 24px
+    }
+    .logoItem{
+       margin-right: 53px;
+    }
+    .navBtn{
+        margin-left: 69px
     }
   }
+
   @media screen and (min-width: 1440px) {
-    .gridContainer {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      column-gap: 16px;
+    .navListContent{
+        gap: 30px
     }
-    .imagContentContainer{
-      margin-bottom: 16px;
+    .logoItem{
+       margin-right: 133px;
+    }
+    .navBtn{
+        margin-left: 149px
     }
   }
   @media screen and (min-width: 1512px) {
-    .gridContainer {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      column-gap: 16px;
+    .navListContent{
+        gap: 30px
     }
-    .imagContentContainer{
-      margin-bottom: 16px;
+    .logoItem{
+       margin-right: 169px;
+    }
+    .navBtn{
+        margin-left: 185px
     }
   }
-  
-  
   @media screen and (min-width: 1728px) {
-    .gridContainer {
-      display: grid;
-      grid-template-columns: repeat(7, 1fr);
-      column-gap: 16px;
+    .navListContent{
+        gap: 30px
     }
-    .imagContentContainer{
-      margin-bottom: 16px;
+    .logoItem{
+       margin-right: 277px;
+    }
+    .navBtn{
+        margin-left: 293px
     }
   }
   @media screen and (min-width: 1920px) {
-    .gridContainer {
-      display: grid;
-      grid-template-columns: repeat(7, 1fr);
-      column-gap: 16px;
+    .navListContent{
+        gap: 30px
     }
-    .imagContentContainer{
-      margin-bottom: 16px !important;
+    .logoItem{
+       margin-right: 373px;
+    }
+    .navBtn{
+        margin-left: 389px
     }
   }
   @media screen and (min-width: 2560px) {
-    .gridContainer {
-      display: grid;
-      grid-template-columns: repeat(7, 1fr);
-      gap: 21.33 px;
+    .navListContent{
+        gap: 40px
     }
-    .imagContentContainer{
-      margin-bottom: 21.33px;
+    .logoItem{
+       margin-right: 498px;
+    }
+    .navBtn{
+        margin-left: 520px
     }
     
   }
   @media screen and (min-width: 3840px) {
-    .gridContainer {
-      display: grid;
-      grid-template-columns: repeat(7, 1fr);
-      gap: 32px;
+    .navListContent{
+        gap: 60px
     }
-    .imagContentContainer{
-      margin-bottom: 32px;
+    .logoItem{
+       margin-right: 748px;
     }
-  }
-  
-  /* Img Container */
-  
-  @media only screen and (min-width: 1280px) {
-    .homeImageContainer img {
-      width: 268px;
-      height: 268px;
-      /* object-position:cover */
+    .navBtn{
+        margin-left: 780px
     }
   }
-  @media screen and (min-width: 1440px) {
-    .homeImageContainer img {
-      width: 268px;
-      height: 268px;
-    }
-  }
-  @media screen and (min-width: 1512px) {
-    .homeImageContainer img {
-      width: 268px;
-      height: 268px;
-    }
-  }
-  @media screen and (min-width: 1728px) {
-    .homeImageContainer img {
-      width: 268px;
-      height: 268px;
-    }
-  }
-  @media screen and (min-width: 1920px) {
-    .homeImageContainer img {
-      width: 268px;
-      height: 268px;
-      
-    }
-  }
-  @media screen and (min-width: 2560px) {
-    .homeImageContainer img {
-      width: 357.32px;
-      height: 357.32px;
-    }
-  }
-  @media screen and (min-width: 2560px) {
-    .homeImageContainer img {
-      width: 536px;
-      /* height: 536px; */
-    }
-  }
-  
