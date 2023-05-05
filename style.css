@@ -13,6 +13,7 @@ body {
 .navContent {
     display: flex;
     align-items: center;
+    width: auto;
 }
 .navListContent{
     display: flex;
@@ -179,7 +180,7 @@ flex-grow: 0;
         margin-left: 293px
     }
   }
-  @media screen and (max-width: 1920px) {
+  @media screen and (min-width: 1920px) {
     
     .navListContent{
         gap: 30px
