@@ -251,12 +251,12 @@ body {
 /* NavBar Ends */
 
 /* Home Hero Start */
-/* .homeHeroSection {
+.homeHeroSection {
  background-image: url(./home4k/H_S/Shadow.svg);
 
-height: 716px;
+height: 1200px;
 
-} */
+}
 .homeParaPart {
   color: #004eeb;
   /* transform: rotate(-180deg); */
@@ -577,9 +577,7 @@ border: 1.3333px solid #D0D5DD;
 box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 border-radius: 10.6664px;
 }
-.btnContainer{
-  /* margin-top: 32px; */
-}
+
 }
 
 /* 4K */
@@ -865,3 +863,24 @@ border-radius: 10.6664px;
 
 
 /* Image Container Css Ends */
+
+/* Trusted Brand Start*/
+.trustedBrand{
+  margin-top: 161px;
+}
+/* Trusted Brand Ends*/
+.trustedBrandContent{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+margin-bottom: 32px;
+
+/* Gray/600 */
+
+color: #475467;
+}
