@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
@@ -233,66 +234,53 @@
         </div>
         <!-- Hero Section Ends -->
         <!-- Image Container Start -->
-        <div class=''>
-            <div class=''>
-                <div>
-
-
-                    <div class='homeImageContainer'>
-                        <div class='gridContainer justify-items-center mt-[20px] lg:mt-0'>
-
-                            <div
-                                class='homeImgContainer flex flex-row lg:flex-col gap-8 lg:gap-0 px-6 lg:px-0 mb-4 lg:mb-0'>
-                                <div class='imagContentContainer'> <img src="./home4k/Hero Section/watch.png"
-                                        alt="This is Watch" /></div>
-                                <div class=''> <img src="./home4k/Hero Section/bag.png" alt="This is Bag" /></div>
-                            </div>
-                            <div
-                                class='homeImgContainer lg:mt-[25px] flex flex-row lg:flex-col gap-8 lg:gap-0 px-6 lg:px-0'>
-                                <div class='imagContentContainer'><img src="./home4k/Hero Section/chair.png"
-                                        alt="This is Chair" /></div>
-                                <div class=''><img src="./home4k/Hero Section/shoe.png" alt="This is Shoe" /></div>
-                            </div>
-                            <div
-                                class='homeImgContainer lg:mt-[67px] flex flex-row lg:flex-col gap-8 lg:gap-0 px-6 lg:px-0 lg:mb-0'>
-                                <div class='imagContentContainer'> <img src="./home4k/Hero Section/t-shirt.png"
-                                        alt="This is T-Shirt" /></div>
-
-                                <div class=''> <img src="./home4k/Hero Section/watch.png" alt="This is New Watch" />
-                                </div>
-                            </div>
-                            <div
-                                class='homeImgContainer lg:mt-[25px] flex flex-row lg:flex-col gap-8 lg:gap-0 px-6 lg:px-0 lg:mb-0'>
-                                <div class='imagContentContainer'><img src="./home4k/Hero Section/girl.png"
-                                        alt="This is Children" /></div>
-                                <div class=''><img src="./home4k/Hero Section/women.png" alt="This is Women" /></div>
-                            </div>
-                            <div class='homeImgContainer flex flex-row lg:flex-col gap-8 lg:gap-0 px-6 lg:px-0 lg:mb-0'>
-                                <div class='imagContentContainer'> <img src="./home4k/Hero Section/chosma.png"
-                                        alt="This is Sunglass" /></div>
-                                <div class=''> <img src="./home4k/Hero Section/jewlerry.png" alt="This is Jewellery" />
-                                </div>
-                            </div>
-                            <div>
-                                <div
-                                    class='homeImgContainer  flex flex-row lg:flex-col gap-8 lg:gap-0 px-6 lg:px-0 mb-4 lg:mb-0'>
-                                    <div class='imagContentContainer'> <img src="./home4k/Hero Section/watch.png"
-                                            class='hidden 2xl:block' alt="This is Watch" /></div>
-                                    <div class=''> <img src="./home4k/Hero Section/bag.png" alt="This is Bag"
-                                            class='hidden 2xl:block' /></div>
-                                </div>
-                            </div>
-                            <div class='homeImgContainer flex flex-row lg:flex-col gap-8 lg:gap-0 px-6 lg:px-0 lg:mb-0'>
-                                <div class='imagContentContainer'> <img src="./home4k/Hero Section/chosma.png"
-                                        alt="This is Sunglass" class='hidden 2xl:block' /></div>
-                                <div class=''> <img src="./home4k/Hero Section/jewlerry.png" alt="This is Jewellery"
-                                        class='hidden 2xl:block' /></div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="allImgContainer">
+            <div class='homeImageContainer'>
+                <div class="gridContainer">
+                   
+                   <div class="styles.homeImageContainer">
+                      <div class="imagContentContainer"> <img  src="./home4k/Hero Section/watch.png" alt="Studio MetroDesk Watch Image"/></div>
+                      <div class=''> <img src="./home4k/Hero Section/bag.png" alt="Studio MetroDesk Bag Image" /></div>
+                   </div>
+                   <div class="mt-[32px]">
+                      <div class="homeImageContainer">
+                          <div class="imagContentContainer"> <img  src="./home4k/Hero Section/chair.png" alt="Studio MetroDesk Chair Image"/></div>
+                          <div class=''> <img src="./home4k/Hero Section/shoe.png" alt="Studio MetroDesk Shoe Image" /></div>
+                      </div>
+                   </div>
+                   <div class="mt-[56px]">
+                      <div class="homeImageContainer">
+                          <div class="imagContentContainer"> <img  src="./home4k/Hero Section/t-shirt.png" alt="Studio MetroDesk TShirt Image"/></div>
+                          <div class=''> <img src="./home4k/Hero Section/watch.png" alt="Studio MetroDesk Watch Image" /></div>
+                      </div>
+                   </div>
+                   <div class="mt-[80px]">
+                      <div class="homeImageContainer">
+                          <div class="imagContentContainer"> <img  src="./home4k/Hero Section/girl.png" alt="Studio MetroDesk Girl Image"/></div>
+                          <div class=''><img src="./home4k/Hero Section/women.png" alt="Studio MetroDesk Woman Image" /></div>
+                      </div>
+                   </div>
+                   <div class="mt-[56px]">
+                      <div class="homeImageContainer">
+                          <div class="imagContentContainer"> <img  src="./home4k/Hero Section/chosma.png" alt="Studio MetroDesk EyeGlass Image"/></div>
+                          <div class=''> <img src="./home4k/Hero Section/jewlerry.png" alt="Studio MetroDesk Jewellery Image" /></div>
+                      </div>
+                   </div>
+                   <div class="mt-[32px] hidden lg:block">
+                      <div class="homeImageContainer">
+                          <div class="imagContentContainer"> <img  src='./home4k/Hero Section/watch.png' alt="Studio MetroDesk Watch Image"/></div>
+                          <div class=''> <img src="./home4k/Hero Section/bag.png" alt="This is Bag Shoes" /></div>
+                      </div>
+                   </div>
+                   <div class="hidden lg:block">
+                      <div class=homeImageContainer>
+                          <div class="imagContentContainer"> <img  src="./home4k/Hero Section/chosma.png" alt="Studio MetroDesk EyeGlass Image"/></div>
+                          <div class=''> <img src="home4k/Hero Section/jewlerry.png" alt="Studio MetroDesk Jewellery Image" /></div>
+                      </div>
+                   </div>
                 </div>
-            </div>
-        </div>
+             </div>
+      </div>
         <!-- Image Container End -->
 
     </div>

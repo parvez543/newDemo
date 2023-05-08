@@ -105,7 +105,7 @@ body {
   padding: 10px 16px;
   gap: 8px;
 
-  width: 113px;
+  /* width: 113px; */
   height: 40px;
 
   /* Primary/600 */
@@ -278,7 +278,7 @@ height: 716px;
  
 
 }
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1920px) {
   .homeTitle {
     margin-top: 68px;
     margin-bottom: 0;
@@ -312,6 +312,7 @@ height: 716px;
   }
   .homeSecondPara {
     font-size: 60px;
+    font-weight: 700;
     margin-top: -10px !important;
     margin-bottom: 16px !important;
   }
@@ -472,6 +473,7 @@ color: #101828;
   }
   .homeSecondPara {
     font-size: 79.998px;
+    font-weight: 700;
     margin-top: -10px !important;
     margin-bottom: 21.33px !important;
   }
@@ -742,6 +744,7 @@ border-radius: 10.6664px;
 
 /* Image Container Css  Start*/
 /* Grid Container */
+/* Grid Container */
 @media only screen and (min-width: 1280px) {
   .gridContainer {
     display: grid;
@@ -862,5 +865,6 @@ border-radius: 10.6664px;
     /* height: 536px; */
   }
 }
+
 
 /* Image Container Css Ends */
