@@ -278,7 +278,7 @@ height: 716px;
  
 
 }
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1920px) {
   .homeTitle {
     margin-top: 68px;
     margin-bottom: 0;
