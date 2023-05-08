@@ -251,12 +251,12 @@ body {
 /* NavBar Ends */
 
 /* Home Hero Start */
-.homeHeroSection {
+/* .homeHeroSection {
  background-image: url(./home4k/H_S/Shadow.svg);
 
 height: 716px;
 
-}
+} */
 .homeParaPart {
   color: #004eeb;
   /* transform: rotate(-180deg); */
@@ -856,7 +856,7 @@ border-radius: 10.6664px;
     height: 357.32px;
   }
 }
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 3840px) {
   .homeImageContainer img{
     width: 536px;
     /* height: 536px; */
