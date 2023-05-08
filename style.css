@@ -831,6 +831,25 @@ border-radius: 10.6664px;
     height: 268px;
   }
 }
+@media screen and (min-width: 1512px) {
+  .homeImageContainer img{
+    width: 268px;
+    height: 268px;
+  }
+}
+@media screen and (min-width: 1728px) {
+  .homeImageContainer img{
+    width: 268px;
+    height: 268px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .homeImageContainer img{
+    width: 268px;
+    height: 268px;
+    
+  }
+}
 @media screen and (min-width: 2560px) {
   .homeImageContainer img{
     width: 357.32px;
