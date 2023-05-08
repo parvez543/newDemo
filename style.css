@@ -253,12 +253,9 @@ body {
 /* Home Hero Start */
 .homeHeroSection {
  background-image: url(./home4k/H_S/Shadow.svg);
- /* width: 1444px; */
- /* filter: blur(200px);
-transform: rotate(180deg); */
+
 height: 716px;
-/* filter: blur(400px); */
-/* transform: rotate(180deg);  */
+
 }
 .homeParaPart {
   color: #004eeb;
@@ -581,7 +578,7 @@ box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 border-radius: 10.6664px;
 }
 .btnContainer{
-  margin-top: 32px;
+  /* margin-top: 32px; */
 }
 }
 
