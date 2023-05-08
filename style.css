@@ -252,10 +252,17 @@ body {
 
 /* Home Hero Start */
 .homeHeroSection {
-  background: url(./home4k/Hero_Section/Shadow.svg);
+ background-image: url(./home4k/H_S/Shadow.svg);
+ /* width: 1444px; */
+ /* filter: blur(200px);
+transform: rotate(180deg); */
+height: 716px;
+/* filter: blur(400px); */
+/* transform: rotate(180deg);  */
 }
 .homeParaPart {
   color: #004eeb;
+  /* transform: rotate(-180deg); */
 }
 .homeContainer {
   display: flex;
